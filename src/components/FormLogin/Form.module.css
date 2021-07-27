@@ -1,0 +1,86 @@
+.caixaTransparente {
+  width: 400px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  border-radius: 30px;
+}
+
+.caixaTransparente h1 {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+
+.caixaTransparente form,
+.caixaTransparente form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.caixaTransparente label {
+  color: white;
+  margin: 10px 0;
+}
+
+.caixaTransparente input {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border: 1px solid rebeccapurple;
+  width: 200px;
+  align-self: center;
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+  outline: none;
+}
+.caixaTransparente button {
+  width: 100px;
+  border: none;
+  background: rebeccapurple;
+
+  padding: 10px 20px;
+  margin: 20px;
+  text-align: center;
+  align-self: flex-end;
+  color: white;
+  border-radius: 10px;
+}
+
+.caixaTransparente span {
+  color: white;
+}
+
+.caixaTransparente a {
+  text-decoration: none;
+}
+
+.cadastroFeito {
+  color: rgb(6, 192, 6);
+}
+
+.cadastroErro {
+  color: rgb(211, 7, 7);
+}
+
+.voltarLogin {
+  align-self: flex-start;
+}
+
+.caixaBotoes {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+.caixaBotoes button {
+  width: 100px;
+  border: none;
+  background: rebeccapurple;
+
+  padding: 10px 20px;
+  margin: 20px;
+  text-align: center;
+  align-self: flex-end;
+  color: white;
+  border-radius: 10px;
+}
