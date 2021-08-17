@@ -1,0 +1,16 @@
+input {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border: 1px solid rebeccapurple;
+  width: 200px;
+  align-self: center;
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+  outline: none;
+}
+
+label {
+  color: white;
+  margin: 10px 0;
+}

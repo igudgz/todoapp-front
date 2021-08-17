@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.caixaTransparente {
+  width: 300px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.divIcons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.icons:hover {
+  color: rebeccapurple;
+}

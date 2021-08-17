@@ -84,3 +84,13 @@
   color: white;
   border-radius: 10px;
 }
+.containerTarefas {
+  display: flex;
+
+  width: 100%;
+}
+.divTarefas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}

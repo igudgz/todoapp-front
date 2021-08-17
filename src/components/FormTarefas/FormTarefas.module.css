@@ -1,0 +1,43 @@
+.formTarefas {
+  width: 50%;
+  margin-left: 5px;
+}
+
+.caixaTransparente {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.caixaTransparente label {
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.caixaTransparente input {
+  display: flex;
+  width: 75%;
+  align-self: flex-start;
+  margin-left: 35px;
+}
+
+.caixaTransparente textarea {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 35px;
+  width: 75%;
+}
+
+.cadastroFeito {
+  color: rgb(6, 192, 6);
+}
+
+.cadastroErro {
+  color: rgb(211, 7, 7);
+}

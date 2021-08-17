@@ -1,0 +1,16 @@
+.divButton {
+  display: flex;
+  align-self: flex-end;
+}
+button {
+  width: 100px;
+  border: none;
+  background: rebeccapurple;
+  display: flex;
+  padding: 10px 20px;
+  margin: 20px;
+  text-align: center;
+
+  color: white;
+  border-radius: 10px;
+}

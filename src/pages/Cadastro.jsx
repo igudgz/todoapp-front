@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer/Footer';
 import FormCadastro from '../components/FormCadastro/FormCadastro';
 import Header from '../components/Header/Header';
 
@@ -9,6 +10,7 @@ const Cadastro = () => {
       <section>
         <FormCadastro />
       </section>
+      <Footer />
     </>
   );
 };

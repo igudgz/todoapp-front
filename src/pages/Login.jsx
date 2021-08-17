@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer/Footer';
 import FormLogin from '../components/FormLogin/FormLogin';
 import Header from '../components/Header/Header';
 
@@ -9,6 +10,7 @@ const Login = () => {
       <section>
         <FormLogin />
       </section>
+      <Footer />
     </>
   );
 };
